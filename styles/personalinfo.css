@@ -1,0 +1,527 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./fonts/HelveticaNeue.ttc");
+}
+body{
+  background: #ebeaea;
+  overflow: hidden;
+
+}
+.line {
+  position: absolute;
+  width: 798px;
+  height: 0px;
+  left: 150px;
+  top: 110px;
+
+  
+  /* off black */
+  
+  border: 1px solid #1A1A1A
+
+  }
+  .piradi{
+    position: absolute;
+    width: 179px;
+    height: 29px;
+    left: 149px;
+    top: 47px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* off black */
+    
+    color: #1A1A1A;
+    
+
+  }
+
+  .back{
+    
+    position: absolute;
+  width: 9.21px;
+  height: 16px;
+  left: 62px;
+  top: 57px;
+  
+  }
+
+.page{
+  position: absolute;
+width: 29px;
+height: 24px;
+left: 920px;
+top: 49px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+
+/* off black */
+
+color: #1A1A1A;
+
+}
+
+
+.saxeli{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 24px;
+box-sizing: border-box;
+gap: 8px;
+
+position: absolute;
+width: 419px;
+height: 122px;
+left: calc(50% - 419px/2 - 624.5px);
+top: 157px;
+
+
+}
+
+.gvari1{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.input-text {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  top: 194px;
+  left: 150px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+::-webkit-input-placeholder {
+  position: absolute;
+  height: 26px;
+  left: 16px;
+  right: 16px;
+  top: 13px;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.gvari{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 24px;
+gap: 8px;
+
+position: absolute;
+width: 419px;
+height: 122px;
+left: calc(50% - 419px/2 - 197.5px);
+top: 157px;
+}
+.gvari1{
+  box-sizing: border-box;
+padding: 15px;
+width: 371px;
+height: 48px;
+
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+.as{
+  width: 371px;
+height: 0px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* შავი/500 */
+
+color: #2E2E2E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.as1{
+  width: 371px;
+  height: 0px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  /* შავი/500 */
+  
+  color: #2E2E2E;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.white{
+  background-color: white;
+  position: absolute;
+  max-width: 920px;
+  right: 0;
+  width: 50%;
+  top: 0;
+  height: 100%;
+}
+
+.pir{
+  position: absolute;
+  top: 380px;
+  left: 150px;
+  
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  
+  /* off black */
+  
+  color: #1A1A1A;
+}
+
+.upload{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  gap: 10px;
+
+  position: absolute;
+width: 107px;
+height: 10px;
+left: 390px;
+top: 390px;
+
+background: #0E80BF;
+border-radius: 4px;
+}
+.upload1{
+
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.aboutme{
+  width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+position: absolute;
+top: 450px;
+left: 150px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.zogadiinfo{
+  box-sizing: border-box;
+padding: 15px;
+  width: 798px;
+  height: 103px;
+  
+  background: #FFFFFF;
+  border: 1px solid #BCBCBC;
+  border-radius: 4px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  position: absolute;
+  top: 495px;
+  left: 150px;
+
+  font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+width: 798px;
+/* identical to box height, or 131% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.emailtag{
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  top: 630px;
+  left: 150px;
+}
+.email{
+box-sizing:border-box ;  
+
+width: 798px;
+height: 48px;
+
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+
+/* Inside auto layout */
+position: absolute;
+top: 680px;
+left: 150px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+padding: 15px;
+color: rgba(0, 0, 0, 0.6);
+}
+.redberryge{
+  position:absolute;
+  left: 150px;
+  top: 720px;
+  font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+color: #2E2E2E;
+}
+
+.mobile{
+  position: absolute;
+  left: 150px;
+  top: 770px;
+  width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+}
+
+
+.mobilenumber{
+  box-sizing: border-box;
+
+width: 798px;
+height: 48px;
+
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+
+position:absolute;
+left: 150px;
+top:815px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.6);
+padding: 15px;
+}
+
+.mobileform{
+  width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+
+position: absolute;
+top: 855px;
+left: 150px;
+
+color: #2E2E2E;
+}
+
+.next{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 60px;
+gap: 20px;
+
+position: absolute;
+width: 35px;
+height: 10px;
+right: 972px;
+bottom: 65px;
+
+background: #6B40E3;
+border-radius: 4px;
+}
+.nextpage{
+position: absolute;
+left: 40px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#text{
+
+z-index: 999;
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1050px;
+top: -100px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 42px;
+color: #F93B1D;
+
+}
+
+#surname{
+  
+z-index: 999;
+position: absolute;
+width: 123px;
+height: 42px;
+left: 750px;
+top: -100px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 42px;
+color: #F93B1D;
+
+}
