@@ -18,31 +18,53 @@
     <div class="saxeli">
         <h1 id="text"></h1>
         <h1 class="name">სახელი</h1>
-        
-        <input type="text"placeholder="ანზორ" id="inputText"  class="input-text" style="box-sizing: border-box; width: 371px; height: 48px; background: #FFFFFF; border: 1px solid #BCBCBC; border-radius: 4px; flex: none; order: 1; align-self: stretch; flex-grow: 0;">
+        <input required type="text" placeholder="ანზორ" id="inputText"  class="input-text">
+        <img src="../photos/Vector (3).png" id="valid-image" style="display: none;">
+        <img src="../photos/Vector (4).png" id="warning-image" style="display: none;">
         <p class="as">მინიმუმ 2 ასო, ქართული ასოები</p>
     </div>
     <div class="gvari">
         <h1 id="surname"></h1>
         <h1>გვარი</h1>
-        <input class="gvari1" id="inputText1" placeholder="მუმლაძე" type="text">
+        <input required class="gvari1" id="inputText1" placeholder="მუმლაძე" type="text">
+        <img src="../photos/Vector (3).png" id="valid-image1" style="display: none;">
+        <img src="../photos/Vector (4).png" id="warning-image1" style="display: none;">
         <p class="as1">მინიმუმ 2 ასო, ქართული ასოები</p>
     </div>
     <div class="white"></div>
-    <h1 class="pir">პირადი ფოტოს ატვირთვა</h1>
-    <a class="upload"><p class="upload1">ატვირთვა</p></a>
+    <h1 class="pir"required>პირადი ფოტოს ატვირთვა</h1>
+    <div class=uploadPhoto>
+        <a class="upload" >
+          <p class="upload1">ატვირთვა</p>
+        </a>
+        <div id="preview"></div>
+        <input type="file" id="file-input" style="display: none">
+    </div>
+      <div id="line"></div>
     <h1 class="aboutme">ჩემ შესახებ (არასავალდებულო)</h1>
-    <textarea class="zogadiinfo"  type="text" placeholder="ზოგადი ინფო შენ შესახებ"></textarea>
-    <div>
-        <h1 class="emailtag">ელ.ფოსტა</h1>
-        <input class="email" placeholder="anzorr666@redberry.ge">
-        <p class="redberryge">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+    <p id="textaboutme"></p>
+    <textarea class="zogadiinfo"  id="zogadiinfo" onkeydown="document.getElementById('output').innerHTML = '<h1>ჩემ შესახებ</h1>'" type="text" placeholder="ზოგადი ინფო შენ შესახებ"></textarea>
+    <div id="output"></div>
+<div >
+  <h1 class="emailtag">ელ.ფოსტა</h1>
+  <img src="../photos/Vector (3).png" id="valid-image2" style="display: none;">
+  <img src="../photos/Vector (4).png" id="warning-image2" style="display: none;">
+  <input class="email" id="email" placeholder="anzorr666@redberry.ge">
+  <p class="redberryge">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+  <img src="../photos/Vector (1).png" id="myImage" style="display: none;">
+  <h1 id="textOutput" style="display:none;"></h1>
+</div>
+<div>
+    <h1 class="mobile">მობილური ნომერი </h1>
+    <input class="mobilenumber" placeholder="+995 551 12 34 56">
+    <img src="../photos/Vector (3).png" id="valid-image3" style="display: none;">
+    <img src="../photos/Vector (4).png" id="warning-image3" style="display: none;">
+    <p class="mobileform">უნდა აკმაყოფილებდეს მობილური ნომრის ფორმას</p>
+    <div id="output">
+      <img id="myImage1"  src="../photos/Vector (2).png" style="display: none;">
+      <h1 id="textOutput1" style="display: none;"></h1>
     </div>
-    <div>
-        <h1 class="mobile">მობილური ნომერი </h1>
-        <input class="mobilenumber" placeholder="+995 551 12 34 56">
-        <p class="mobileform">უნდა აკმაყოფილებდეს მობილური ნომრის ფორმას</p>
-    </div>
-    <a class="next"><p class="nextpage" onclick="window.location.href='experience.html'">შემდეგი</p></a>
+  </div>
+    <a class="next"><p class="nextpage" id="form" onclick="window.location.href='experience.html'">შემდეგი</p></a>
 </body>
 </html>
